@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0');
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+.material-symbols-outlined {
+    font-size: 16px;
+}
+.hor-navbar {
+width: 100%;
+height: 60px;
+font-size: large;
+background-color: black;
+color: whitesmoke;
+}
+.sizz {
+    font-size: 60px;
+    padding-left: 45px;
+}
+.items {
+float: right;
+list-style: none;
+margin: 15px;
+}
+.item-list {
+margin-right: 10px;
+padding: 20px;
+display: inline;
+padding: 10px;
+}
+.item-list a {
+color: whitesmoke;
+text-decoration: none;
+margin: 10px;
+}
+.item-list a:hover {
+    background-color: antiquewhite;
+    color: red;
+}
+.row {
+    display: flex;
+    height: 42.8rem;
+}
+.ver-navbar {
+
+background-color: black;
+color: whitesmoke;
+flex: 1;
+}
+.ver-items {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+.ver-itemlist {
+display: block;
+/* margin-bottom: 20px; */
+padding: 10px;
+}
+.ver-itemlist a {
+    color: whitesmoke;
+    text-decoration: none; 
+  padding-left: 30px;
+}
+.ver-itemlist:hover {
+    background-color: bisque;
+    color: aqua;
+}
+.ver-items.ver-itemlist.next{
+    visibility: hidden;
+    transition: 300ms;
+    z-index: 999;
+    position: absolute;
+    height: auto;
+    width: 50px;
+}
+.work-area {
+background-color: bisque;
+text-align: justify;
+width: 85%;
+}
+.tittle-hdr {
+padding: 10px 0px 20px 20px;
+height: 50px;
+background-image: linear-gradient(to right,black,white);
+color: white;
+}
+.content p {
+    padding: 10px 0px 20px 20px;
+}
