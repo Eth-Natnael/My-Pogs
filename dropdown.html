@@ -30,10 +30,10 @@
         .main-nav a:hover{
             background-color: rgba(121,165,162,1.00);
         }
-        .main-nav-ul ul{
+        .main-nav-ul-li-ul{
             display: none;
         }
-        .main-nav-ul li:hover ul{
+        .main-nav-ul-li:hover .main-nav-ul-li-ul{
             display:block;
         }
         .main-nav .sub-arrow:after{
@@ -44,11 +44,11 @@
             -webkit-transform: rotate(90deg);
             -moz-transform: rotate(90deg);
         }
-        .main-nav ul a:before{
+        .main-nav-ul a:before{
             content: '\203A ';
         }
-        .main-nav li:hover .sub-arrow:after{
-            content: '2039';
+        .main-nav-ul-li:hover .sub-arrow:after{
+            content: '\203A';
         }
 
     </style>
@@ -56,17 +56,17 @@
 <body>
     <nav class="main-nav">
         <ul class="main-nav-ul">
-            <li><a href="">home</a></li>
-            <li><a href="">product <span class="sub-arrow"></span></a>
-                <ul>
-                <li><a href="">item1</a></li>
-                <li><a href="">item2</a></li>
-                <li><a href="">item3</a></li>
+            <li class="main-nav-ul-li"><a href="" class="main-nav-ul-li-a">home</a></li>
+            <li class="main-nav-ul-li"><a href="" class="main-nav-ul-li-a">product <span class="sub-arrow"></span></a>
+                <ul class="main-nav-ul-li-ul">
+                <li class="main-nav-ul-li-ul-li"><a href="">item1</a></li>
+                <li class="main-nav-ul-li-ul-li"><a href="">item2</a></li>
+                <li class="main-nav-ul-li-ul-li"><a href="">item3</a></li>
             </ul>
             </li>
-            <li><a href="">service</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">contact</a></li>
+            <li class="main-nav-ul-li"><a href="" class="main-nav-ul-li-a">service</a></li>
+            <li class="main-nav-ul-li"><a href="" class="main-nav-ul-li-a">about</a></li>
+            <li class="main-nav-ul-li"><a href="" class="main-nav-ul-li-a">contact</a></li>
         </ul>
     </nav>
 </body>
