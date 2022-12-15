@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald&family=Roboto&display=swap');
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #242d41;
+}
+h3:first-child{
+    margin-top: 20px;
+}
+h3 {
+font-size: 20px;
+font-style: italic;
+/* border-bottom: 2px solid silver; */
+}
+
+p{
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
