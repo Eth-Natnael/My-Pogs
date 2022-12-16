@@ -17,16 +17,19 @@ body {
     background-color: #242d41;
     position: absolute;
     box-shadow: 0 0 10px #000;
+    z-index: 1;
 }
 .list{
     list-style: none;
     /* text-align: right; */
     float: right;
 }
+
 .listt{
     display: inline-block;
     margin: 10px 20px 10px 0;
 }
+
 .listt:hover{
     background: #566f82;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#27455c), to(#273a47));
@@ -59,6 +62,7 @@ ul {
 .container{
     width: 16%;
     /* position: absolute; */
+    z-index: 2;
 }
 .accordion-menu {
     height: 100vh;
@@ -82,7 +86,7 @@ ul {
     cursor: pointer;
     display: block;
     padding: 15px 15px 15px 45px;
-    font-size: 18px;
+    font-size: 15px;
     border-bottom: 2px solid #2d374d;
     color: #999;
     position: relative;
@@ -133,6 +137,7 @@ padding-top: 50px;
 padding-left: 10px;
 overflow-x: hidden;
 overflow-y: auto;
+z-index: 0;
 }
 .div11{
     width: 100%;
@@ -210,4 +215,15 @@ overflow-y: auto;
     flex: 1;
     display: inline-block;
     background-color: #242d41;
+}
+.collm i{
+    color: #999;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.collm p{
+    color: #999;
+    text-align: left;
+    margin-left: 10px;
 }
