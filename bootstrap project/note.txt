@@ -1,0 +1,16 @@
+.container {the whole page with center}
+    -fluid {to remove the center and begin at the left, even if it has a slight margin}
+.row {who has 12 columns}
+.col {who has sm md lg {the sum up should be 12 other wise use offset}}
+    -offset-2{number}{to fill the remaining space}
+
+
+    justify-content-center {to be center horizontally}
+    justify-content-start {to be left horizontally}
+    justify-content-end {to be right horizontally}
+    justify-content-arround {distribute the space between equally}
+    justify-content-between {distributed left and right}
+    justify-content-evenly
+    align-items-center {to be center vertically}
+    align-items-start {to be top vertically}
+    align-items-centender {to be bottom vertically}

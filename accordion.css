@@ -139,13 +139,14 @@ overflow-x: hidden;
 overflow-y: auto;
 z-index: 0;
 }
-.div11{
+.div001{
     width: 100%;
     height: 200px;
     display: flex;
     margin-bottom: 50px;
     margin-top: 50px;
     display: block;
+    transition: 1s;
 }
 .div1{
     width: 26%;
@@ -158,64 +159,12 @@ z-index: 0;
     flex: 1;
     display: inline-block;
     background-color: #242d41;
+    justify-content: center;
 }
-.div21{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin-bottom: 50px;
-    display: block;
+.div1:hover{
+    transform: scale(1.1);
 }
-.div2{
-    width: 26%;
-    height: 200px;
-    border: 2px solid #27455c;
-    box-shadow: #27455c;
-    box-sizing: border-box;
-    margin: 10px 40px 10px 40px;
-    text-align: center;
-    flex: 1;
-    display: inline-block;
-    background-color: #242d41;
-}
-.div31{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin-bottom: 50px;
-    display: block;
-}
-.div3{
-    width: 26%;
-    height: 200px;
-    border: 2px solid #27455c;
-    box-shadow: #27455c;
-    box-sizing: border-box;
-    margin: 10px 40px 10px 40px;
-    text-align: center;
-    flex: 1;
-    display: inline-block;
-    background-color: #242d41;
-}
-.div41{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin-bottom: 50px;
-    display: block;
-}
-.div4{
-    width: 26%;
-    height: 200px;
-    border: 2px solid #27455c;
-    box-shadow: #27455c;
-    box-sizing: border-box;
-    margin: 10px 40px 10px 40px;
-    text-align: center;
-    flex: 1;
-    display: inline-block;
-    background-color: #242d41;
-}
+
 .collm i{
     color: #999;
     width: 100px;

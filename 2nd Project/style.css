@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Lora&display=swap');
+
+* {
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lora', serif;
+    background-color: silver
+}
+.row{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 100px 500px 100px 500px;
+}
+.colls1{
+    width: 250px;
+    height: 500px;
+    background-color: #1ec789;
+    margin-left: 10px; 
+}
+.colls2{
+    width: 250px;
+    height: 500px;
+    background-color: white;
+}
+h2, h3{
+    background-color: white;
+}
+form{
+    background-color: white;
+}
+input{
+    background-color: white;
+    margin-bottom: 10px;
+}
